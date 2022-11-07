@@ -4,7 +4,7 @@
   "description": "vue3 vite ui test",
   "main": "dist/vue3-vite-ui.umd.js",
   "module": "dist/vue3-vite-ui.esm.js",
-  "homepage": "https://smarty-ui-vite-tv9r.vercel.app/",
+  "homepage": "https://vue3-vite-ui.vercel.app/",
   "typings": "src/@types/index.d.ts",
   "scripts": {
     "dev": "vite",

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "declaration": true, // 生成相关的'.d.ts'文件
+    "declarationDir": "./dist/types", // '.d.ts'文件的输出目录
+    "jsx": "preserve",
+    "lib": ["ES2015", "ESNext"],
+    "types": ["node"],
+    "esModuleInterop": true
+  },
+  "include": [
+    // "./**/*.*",
+    // "src/shims-vue.d.t",
+    "docs/.vitepress/theme/shims-vue.d.ts",
+    // "src/global.d.ts"
+    "src/**/*.*"
+  ],
+  "paths": {
+    "@/*": ["src/*"]
+  },
+
+  "exclude": ["node_modules"],
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": "true"
+}
